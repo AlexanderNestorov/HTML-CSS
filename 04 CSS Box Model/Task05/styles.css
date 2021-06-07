@@ -1,0 +1,19 @@
+body {
+    background: #EEEEEE;
+}
+
+li {
+    display: inline-block;
+    background: white;
+    border-width: 0.4rem;
+    border-style: solid;
+    border-color: black;
+    padding: 16px;
+    margin: 16px;
+    vertical-align: middle;
+    max-width: 350px;
+}
+
+li img {
+    width: 100%;
+}
