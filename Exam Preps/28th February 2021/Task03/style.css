@@ -1,0 +1,200 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+.section-wrapper {
+    max-width: 1350px;
+    margin:0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style:none;
+    padding: 16px 21px;
+    margin: 0 0.65px;
+    background: #ececec;
+  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #382929;
+}
+
+nav ul li:first-child {
+    background: #e24e2a;
+}
+
+nav ul li:first-child a{
+    color:white;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-image{
+    width: 100%;
+}
+
+.header-image img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.header-logo {
+    margin-right: 20px;
+    font-size: 32px;
+}
+
+.header-logo::after {
+    content: '';
+    width: 1px;
+    height: 39px;
+    position: relative;
+    left: 10px;
+    top: 9px;
+    display: inline-flex;
+    background: #808080;
+}
+
+.header-logo-subtitle {
+    margin-top: 34px;
+}
+
+.about {
+    background: #e24e2a;
+}
+
+.about-text {
+    padding: 60px;
+    margin:-5px auto 0  auto;
+    max-width: 60%;
+    text-align: center;
+    color: lightgrey;
+}
+
+.about-text a {
+    color: white;
+}
+
+.benefits {
+    display: flex;
+    background: #383838;
+    padding: 50px;
+    text-align: center;
+}
+
+.benefit {
+    margin:0 30px;
+}
+
+.benefit-icon-wrapper {
+    background: #e24e2a;
+    padding: 18px;
+    width: -moz-fit-content;
+    margin: 0 auto;
+}
+
+.benefit-icon-wrapper i {
+    font-size: 48px;
+    color: white;
+}
+
+.benefit-title {
+    color: white;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.benefit-text {
+    color: #7b7676;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.cta-section-subtitle {
+    margin-top: 0;
+    color: #7b7676;
+}
+
+.cta-section-title {
+    margin-bottom:2px;
+    color: #383838;
+}
+
+.btn {
+    border-radius: 0;
+    background: #1b9772;
+    letter-spacing: 2px;
+    border: none;
+    padding: 16px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    background: #383838;
+    padding: 80px 0;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.info-content-wrapper {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.info-item-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.info-item-text {
+    font-size: 15px;
+    color: #7b7676;
+}
+
+footer{
+    background: #1b9772;
+    padding: 50px 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgray;
+
+}
